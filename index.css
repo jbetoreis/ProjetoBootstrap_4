@@ -1,0 +1,135 @@
+.card-item {
+    border: none;
+    border-left: solid 0.05rem rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+}
+
+.navbar {
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+.navbar-brand {
+    background-color: #63c6ae;
+    text-align: right;
+    min-width: 9rem;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all .5s ease;
+    color: #586165;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #63c6ae;
+}
+
+.navbar-nav {
+    background-color: #242a2c;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-nav {
+        background-color: transparent;
+        margin-left: 2rem;
+    }
+
+    .nav-link {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.section-articles #title-articles {
+    background-color: #63c6ae;
+    color: white;
+}
+
+.section-articles h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.carousel-caption .h5 {
+    background-color: #63c6ae;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 2rem;
+}
+
+.carousel-caption .caption-text {
+    background-color: #242a2c;
+    margin: 5px 50px 35px;
+    /*Top horizontal bottom*/
+    color: white;
+    padding: .9rem;
+    font-size: 1rem;
+}
+
+.carousel-caption .btn {
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.section-cards {
+    border-bottom: 1px solid gray;
+}
+
+.section-citacao {
+    background-color: #63c6ae;
+    padding: 2rem 0;
+    border-bottom: 1rem solid #29b693;
+    text-align: center;
+}
+
+.section-notebooks .container {
+    padding: 5rem;
+}
+
+@media screen and (min-width: 576px){
+    .section-notebooks .container{
+        padding: 1rem;
+    }
+}
+
+.footer {
+    background-color: #242a2c;
+    padding: 2rem 0 10rem;
+    color: #454e51;
+}
+
+.footer .links{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer .links a{
+    color: inherit;
+    text-decoration: none;
+}
